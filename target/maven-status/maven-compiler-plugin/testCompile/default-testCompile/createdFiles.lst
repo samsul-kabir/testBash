@@ -1,3 +1,4 @@
+room/CreateThousandBooking.class
 com/testbash/auto/runner/MainRunner.class
 com/testbash/auto/setup/Setup.class
 com/testbash/auto/steps/Contact.class

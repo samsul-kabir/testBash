@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 
 @CucumberOptions (
-		features = {"src/test/resource/features/contact.feature"},
+		features = {"src/test/resource/features/applitools.feature"},
 		glue = {"com.testbash.auto.steps"},
 		plugin = {"pretty","html:target/cucumber",
 				"json:target/cucumber.json",

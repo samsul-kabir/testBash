@@ -2,42 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="13074" started-at="2019-09-10T13:42:25Z" finished-at="2019-09-10T13:42:38Z">
+  <suite name="Surefire suite" duration-ms="17593" started-at="2019-09-11T12:37:12Z" finished-at="2019-09-11T12:37:30Z">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testbash.auto.runner.MainRunner@7dc7cbad]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test name="Surefire test" duration-ms="13074" started-at="2019-09-10T13:42:25Z" finished-at="2019-09-10T13:42:38Z">
-      <class name="com.testbash.auto.runner.MainRunner">
-        <test-method status="PASS" signature="startDriver()[pri:0, instance:com.testbash.auto.runner.MainRunner@7dc7cbad]" name="startDriver" is-config="true" duration-ms="2776" started-at="2019-09-10T15:42:22Z" finished-at="2019-09-10T15:42:25Z">
+    <test name="Surefire test" duration-ms="17593" started-at="2019-09-11T12:37:12Z" finished-at="2019-09-11T12:37:30Z">
+      <class name="room.CreateThousandBooking">
+        <test-method status="PASS" signature="createThousand()[pri:0, instance:room.CreateThousandBooking@6d8a00e3]" name="createThousand" duration-ms="17581" started-at="2019-09-11T14:37:12Z" finished-at="2019-09-11T14:37:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startDriver -->
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.testbash.auto.runner.MainRunner@7dc7cbad]" name="setUpClass" is-config="true" duration-ms="200" started-at="2019-09-10T15:42:25Z" finished-at="2019-09-10T15:42:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testbash.auto.runner.MainRunner@7dc7cbad]" name="feature" duration-ms="12460" started-at="2019-09-10T15:42:25Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-10T15:42:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Contact]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.testbash.auto.runner.MainRunner@7dc7cbad]" name="tearDownClass" is-config="true" duration-ms="311" started-at="2019-09-10T15:42:37Z" finished-at="2019-09-10T15:42:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-        <test-method status="PASS" signature="stopDriver()[pri:0, instance:com.testbash.auto.runner.MainRunner@7dc7cbad]" name="stopDriver" is-config="true" duration-ms="129" started-at="2019-09-10T15:42:38Z" finished-at="2019-09-10T15:42:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- stopDriver -->
-      </class> <!-- com.testbash.auto.runner.MainRunner -->
+        </test-method> <!-- createThousand -->
+      </class> <!-- room.CreateThousandBooking -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

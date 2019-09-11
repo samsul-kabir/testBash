@@ -62,4 +62,20 @@ public class Contact extends Setup{
 		Thread.sleep(5000);
 	}
 	
+	
+	@When("^fill out all the field$")
+	public void fill_out_all_the_field() throws Throwable {
+		eyes.checkWindow("before contact Window");
+		cp.enterName("Pierre");
+		cp.enterEmail("pirre@gmail.com");
+		cp.enterPhone("123456789900777");
+		cp.enterSubject("Hello there");
+		cp.enterMessage("There is some discussion");
+		cp.ClickOnSubmit();
+	}
+
+	@Then("^we compare screen$")
+	public void we_compare_screen() throws Throwable {
+		eyes.checkWindow("after contact Window");
+	}
 }
