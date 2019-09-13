@@ -3,7 +3,19 @@
 <suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
   <test name="Surefire test">
     <classes>
-      <class name="room.CreateThousandBooking"/>
+      <class name="com.testbash.auto.runner.MainRunner"/>
     </classes>
   </test> <!-- Surefire test -->
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="com.testbash.auto.runner.MainRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature"/>
+          <include name="startDriver"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.testbash.auto.runner.MainRunner -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

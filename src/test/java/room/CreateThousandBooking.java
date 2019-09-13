@@ -55,6 +55,7 @@ public class CreateThousandBooking {
 			
 			System.out.println("Day: " + day + "Month: " + month);		
 			System.out.println("The status code recieved: " + statusCode + "for api number: " + i);
+			System.out.println("Response body: " + response.body().asString());
 		}
 
 	}

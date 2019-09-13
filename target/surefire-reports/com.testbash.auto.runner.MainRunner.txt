@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: com.testbash.auto.runner.MainRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 4.105 s <<< FAILURE! - in com.testbash.auto.runner.MainRunner
+startDriver(com.testbash.auto.runner.MainRunner)  Time elapsed: 3.019 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Misconfigured -- Sauce Labs Authentication Error.
+You used username 'None' and access key 'None' to authenticate, which are not valid Sauce Labs credentials.
+
+The following desired capabilities were received:
+{'browserName': 'chrome',
+ 'browserVersion': 'latest',
+ 'goog:chromeOptions': {'args': [],
+                        'extensions': [],
+                        'w3c': True},
+ 'sauce:options': {'build': 'Onboarding Sample App - Java-Junit5',
+                   'commandTimeout': 600,
+                   'idleTimeout': 1000,
+                   'maxDuration': 3600,
+                   'name': '4-best-practices',
+                   'seleniumVersion': '3.141.59',
+                   'tags': ['sauceDemo',
+                            'demoTest',
+                            'module4',
+                            'javaTest']}} (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.46 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-3.local', ip: '10.244.216.170', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_202'
+Driver info: driver.version: RemoteWebDriver
+
